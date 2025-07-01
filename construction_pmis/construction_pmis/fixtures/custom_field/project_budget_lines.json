@@ -1,0 +1,26 @@
+[
+    {
+        "doctype": "Custom Field",
+        "dt": "Project",
+        "fieldname": "custom_project_budget_lines",
+        "fieldtype": "Table",
+        "options": "Project Budget Line",
+        "label": "Project Budget",
+        "insert_after": "custom_wbs_items", // Adjust as needed, perhaps after team assignments or WBS
+        "module": "Construction PMIS",
+        "owner": "Administrator"
+    },
+    {
+        "doctype": "Custom Field",
+        "dt": "Project",
+        "fieldname": "custom_total_budget_amount",
+        "fieldtype": "Currency",
+        "label": "Total Budget Amount",
+        "read_only": 1,
+        "insert_after": "custom_project_budget_lines",
+        "module": "Construction PMIS",
+        "owner": "Administrator",
+        "options": "Company:company:default_currency",
+        "no_copy": 1
+    }
+]

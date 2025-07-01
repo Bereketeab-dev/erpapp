@@ -1,0 +1,13 @@
+[
+    {
+        "doctype": "Custom Field",
+        "dt": "Project",
+        "fieldname": "custom_foreman",
+        "fieldtype": "Link",
+        "options": "User",
+        "label": "Foreman",
+        "insert_after": "custom_quantity_surveyor",
+        "module": "Construction PMIS",
+        "owner": "Administrator"
+    }
+]

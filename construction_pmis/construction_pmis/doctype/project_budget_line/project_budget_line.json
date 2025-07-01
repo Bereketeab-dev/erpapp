@@ -1,0 +1,39 @@
+{
+    "name": "Project Budget Line",
+    "engine": "InnoDB",
+    "is_child_table": 1,
+    "istable": 1,
+    "module": "Construction PMIS",
+    "owner": "Administrator",
+    "permissions": [],
+    "fields": [
+        {
+            "fieldname": "cost_category",
+            "fieldtype": "Select",
+            "label": "Cost Category",
+            "options": "Material\nLabor\nEquipment\nSubcontract\nOther",
+            "reqd": 1,
+            "in_list_view": 1
+        },
+        {
+            "fieldname": "cost_code",
+            "fieldtype": "Data",
+            "label": "Cost Code / Description",
+            "in_list_view": 1
+        },
+        {
+            "fieldname": "budget_amount",
+            "fieldtype": "Currency",
+            "label": "Budget Amount",
+            "reqd": 1,
+            "in_list_view": 1,
+            "options": "Company:company:default_currency"
+        },
+        {
+            "fieldname": "notes",
+            "fieldtype": "Small Text",
+            "label": "Notes"
+        }
+    ],
+    "track_changes": 1
+}

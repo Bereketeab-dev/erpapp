@@ -1,0 +1,13 @@
+[
+    {
+        "doctype": "Custom Field",
+        "dt": "Project",
+        "fieldname": "custom_wbs_items",
+        "fieldtype": "Table",
+        "options": "WBS Item",
+        "label": "Work Breakdown Structure",
+        "insert_after": "custom_foreman", // Or any other suitable field
+        "module": "Construction PMIS",
+        "owner": "Administrator"
+    }
+]

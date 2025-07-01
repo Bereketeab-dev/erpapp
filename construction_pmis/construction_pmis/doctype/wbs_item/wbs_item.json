@@ -1,0 +1,59 @@
+{
+    "name": "WBS Item",
+    "engine": "InnoDB",
+    "is_child_table": 1,
+    "istable": 1,
+    "module": "Construction PMIS",
+    "owner": "Administrator",
+    "permissions": [],
+    "fields": [
+        {
+            "fieldname": "wbs_code",
+            "fieldtype": "Data",
+            "label": "WBS Code",
+            "in_list_view": 1,
+            "reqd": 1
+        },
+        {
+            "fieldname": "description",
+            "fieldtype": "Small Text",
+            "label": "Description",
+            "in_list_view": 1,
+            "reqd": 1
+        },
+        {
+            "fieldname": "parent_wbs_item",
+            "fieldtype": "Link",
+            "options": "WBS Item",
+            "label": "Parent WBS Item"
+        },
+        {
+            "fieldname": "start_date",
+            "fieldtype": "Date",
+            "label": "Start Date"
+        },
+        {
+            "fieldname": "end_date",
+            "fieldtype": "Date",
+            "label": "End Date"
+        },
+        {
+            "fieldname": "duration",
+            "fieldtype": "Int",
+            "label": "Duration (Days)",
+            "read_only": 1
+        },
+        {
+            "fieldname": "progress",
+            "fieldtype": "Percent",
+            "label": "Progress"
+        },
+        {
+            "fieldname": "assign_to",
+            "fieldtype": "Link",
+            "options": "User",
+            "label": "Assigned To"
+        }
+    ],
+    "track_changes": 1
+}

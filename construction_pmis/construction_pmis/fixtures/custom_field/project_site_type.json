@@ -1,0 +1,13 @@
+[
+    {
+        "doctype": "Custom Field",
+        "dt": "Project",
+        "fieldname": "custom_site_type",
+        "fieldtype": "Select",
+        "options": "\nGreenfield\nBrownfield\nRenovation\nInfrastructure\nInterior Fit-out",
+        "label": "Site Type",
+        "insert_after": "custom_site_area",
+        "module": "Construction PMIS",
+        "owner": "Administrator"
+    }
+]

@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include construction_pmis *.css
+recursive-include construction_pmis *.csv
+recursive-include construction_pmis *.html
+recursive-include construction_pmis *.ico
+recursive-include construction_pmis *.js
+recursive-include construction_pmis *.json
+recursive-include construction_pmis *.md
+recursive-include construction_pmis *.png
+recursive-include construction_pmis *.py
+recursive-include construction_pmis *.svg
+recursive-include construction_pmis *.txt
+recursive-exclude construction_pmis *.pyc

@@ -1,0 +1,12 @@
+[
+    {
+        "doctype": "Custom Field",
+        "dt": "Project",
+        "fieldname": "custom_site_area",
+        "fieldtype": "Float",
+        "label": "Site Area (sqm)",
+        "insert_after": "custom_site_location",
+        "module": "Construction PMIS",
+        "owner": "Administrator"
+    }
+]

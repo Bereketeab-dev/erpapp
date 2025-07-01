@@ -1,0 +1,13 @@
+[
+    {
+        "doctype": "Custom Field",
+        "dt": "Project",
+        "fieldname": "custom_quantity_surveyor",
+        "fieldtype": "Link",
+        "options": "User",
+        "label": "Quantity Surveyor",
+        "insert_after": "custom_project_engineer",
+        "module": "Construction PMIS",
+        "owner": "Administrator"
+    }
+]

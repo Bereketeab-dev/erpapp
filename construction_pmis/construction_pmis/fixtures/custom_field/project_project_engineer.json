@@ -1,0 +1,13 @@
+[
+    {
+        "doctype": "Custom Field",
+        "dt": "Project",
+        "fieldname": "custom_project_engineer",
+        "fieldtype": "Link",
+        "options": "User",
+        "label": "Project Engineer",
+        "insert_after": "custom_site_type", // Adjust insertion point as needed
+        "module": "Construction PMIS",
+        "owner": "Administrator"
+    }
+]

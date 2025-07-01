@@ -1,0 +1,13 @@
+[
+    {
+        "doctype": "Custom Field",
+        "dt": "Project",
+        "fieldname": "custom_site_location",
+        "fieldtype": "Link",
+        "options": "Address",
+        "label": "Site Location",
+        "insert_after": "project_name", // Example: choose an appropriate field to insert after
+        "module": "Construction PMIS",
+        "owner": "Administrator"
+    }
+]
